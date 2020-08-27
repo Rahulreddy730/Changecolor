@@ -1,0 +1,122 @@
+.centered2{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffd0a8;
+    color: #333;
+    font-family: 'calibir',sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.container1{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+    flex: 0 0 80%;
+}
+
+.container2{
+    text-align: center;
+    padding-top:500px;
+    border-radius: 5px;
+    background-color: #fff;
+    flex: 0 0 80%;
+}
+
+#quoteBtn{
+    border:none;
+    color:#fff;
+    background: #d89156;
+    font-size: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#quoteBtn:hover{
+    color: rgba(0,0,0,0.6);
+}
+
+blockquote{
+    background: #f9f9f9;
+    border-left: 10px solid #fcdbbf;
+    margin: 1.5rem;
+    padding: 0.5rem;
+}
+
+#quoteAuthor{
+    color: #ffd000;
+}
+
+
+
+.split {
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  /* Control the left side */
+.left {
+    left: 0;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.colorBtn{
+    padding: 0.25rem 0.5rem;
+    border: 3px solid white;
+    border-radius: 7px;
+    color: #fefefe;
+    background: rgba(0,0,0,0.6);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+}
+
+.colorBtn:hover{
+    background: rgb(0,0,0);
+}
+
+.hexColor{
+    text-transform: capitalize;
+}
+
+.hex{
+    font-size:3rem;
+}
+
+.hexBtn{
+    color: #f15025;
+    border: 3px solid #f15025;
+    border-radius: 7px;
+    background: rgba(0,0,0,0.6);
+    font-size: 1.5rem;
+    padding: 0.25 rem 0.5rem;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.hexBtn:hover{
+    background: rgb(0,0,0);
+}
